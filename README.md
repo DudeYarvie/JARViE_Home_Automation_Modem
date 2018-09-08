@@ -8,7 +8,7 @@ This is a demonstration board for the NXP TDA5051A home automation modem. Couple
 
 
 ## Demo board
-[[https://github.com/DudeYarvie/JARVIE_TDA5051A_Arduino/blob/master/Reference%20Docs/JARVIE_PLM_Annotated.png]]
+[[https://github.com/DudeYarvie/JARVIE_TDA5051A_Arduino/blob/master/Reference%20Docs/JARVIE_PLM_Annotated.png|alt=octocat]]]
 
 
 ## Connecting the board
