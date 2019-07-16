@@ -19,6 +19,9 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 * Digital demodulation delivering baseband data
 
 ## Typical Application
+<p align="center">
+  <img src="https://github.com/DudeYarvie/JARVIE_TDA5051A_Arduino/blob/master/Reference%20Docs/Typical_App.PNG">
+</p>
 
 
 ## QUICK SETUP
