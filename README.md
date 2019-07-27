@@ -21,6 +21,12 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 ### AC Zero Cross Detection
 ![ZC_Scope_Capture](https://github.com/DudeYarvie/JARVIE_TDA5051A_Arduino/blob/master/Reference%20Docs/Zero_Cross_Detection_Capture_Annotate1.PNG)
 
+* **A –** 120 VAC zero cross point.  Signal begins to rise to maximum amplitude but H11AA1 bi-directional optocoupler is off so zero cross signal remains HIGH (+5V) due to pull-up resistor.
+* **B –**  120 VAC rises high enough to bias NPN transistor in optocoupler pulling the zero cross detection signal LOW (0V).
+* **C –**  120 VAC zero cross point.  Signal begins to fall to minimum amplitude.  H11AA1 optocoupler is off so zero cross signal remains HIGH (+5V) due to pull-up resistor.
+* **D –**  120 VAC falls low enough to bias NPN transistor in bi-directional optocoupler pulling the zero cross detection signal LOW (0V).
+
+
 ## Typical Application
 <p align="center">
   <img src="https://github.com/DudeYarvie/JARVIE_TDA5051A_Arduino/blob/master/Reference%20Docs/Typical_App.PNG">
