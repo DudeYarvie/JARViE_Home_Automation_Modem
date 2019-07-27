@@ -29,7 +29,7 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 
 ## Typical Application
 <p align="center">
-  <img src="https://github.com/DudeYarvie/JARVIE_TDA5051A_Arduino/blob/master/Reference%20Docs/Typical_App.PNG">
+  <img src="https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/JARViE_PLM_AC_Application.png">
 </p>
 
 
