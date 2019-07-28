@@ -18,6 +18,9 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 * 8-bit A/D (Analog to Digital) converter and narrow digital filtering
 * Digital demodulation delivering baseband data
 
+### DATA_IN to Tx carrier output delay
+![DATA_OUT_Tx_Carrier_Delay](https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/DATA_IN%20to%20Tx%20carrier%20output%20delay%20annotated.PNG)
+
 ### AC Zero Cross Detection
 ![ZC_Scope_Capture](https://github.com/DudeYarvie/JARVIE_TDA5051A_Arduino/blob/master/Reference%20Docs/Zero_Cross_Detection_Capture_Annotate1.PNG)
 
