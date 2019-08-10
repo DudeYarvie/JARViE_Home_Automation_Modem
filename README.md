@@ -81,7 +81,7 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 | TX0 | J2 pin 5|
 | RX0 | J2 pin 7|
 
-## Transmission & Reception Characteristics
+## PLM Transmission & Reception Characteristics
 ### DATA_IN to Tx Carrier Output Delay
 ![DATA_IN_Tx_Carrier_Delay](https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/DATA_IN%20to%20Tx%20carrier%20output%20delay%20annotated.PNG)
 
