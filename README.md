@@ -1,4 +1,4 @@
-## JARViE Power-Line Modem Demo Board
+## JARViE Power Line Modem Demo Board
 The JARViE PLM Demo Board offers users a simple and low-cost entry point into learning about Smart Home technology.  Couple this modem with a microcontroller to bi-directionally communicate with other devices or systems over AC or DC power lines. Applications include lighting control, home appliance control, and energy/heating control. 
 
 The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A is an amplitude shift key (ASK) power line modem that operates up to 1200 bits per second (bps) from a single +5VDC supply.  The receiver portion of the modem employs automatic gain control (AGC) at its input and the transmitter has output power overload protection. An 8-bit A-to-D converter and a narrow digital filter follow the AGC stage in the receiver. **The TDA5051A power line modem application solution is compliant with US FCC (Federal Communication Commission), Industry Canada, Japan MPT, and European CENELEC EN50065-1 regulations for signaling in the 125 kHz to 140 kHz and the 95 kHz to 125 kHz frequency bands.**  
