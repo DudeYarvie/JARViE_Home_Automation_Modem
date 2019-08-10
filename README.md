@@ -31,12 +31,15 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 8. Obtain a USB A to micro B or equivalent cable and a USB A wall adapter.
 9. Plug the micro B end of the USB cable into the Adafruit Metro. 
 10. Plug the A side of the USB cable into the wall adatper. 
-11. Verify that your PLM slave and master devices resemble the figure below.
+11. Verify that your PLM slave and master devices resemble the setup reference figure below.
 12. Verify that the AC power cord voltages are rated appropriately for the outlet you plan on plugging the PLMs into! 
 13. Plug the AC power cord and wall adatper of the master device into a home outlet.
 14. Once powered, the Adafruit Metro of the master device should blink 4 times every 12 seconds. After the red LED blinks, the master transmits: ***ASCII command string "IDN?" + Fletcher16 16 bit checksum (5 ASCII characters) + "\n" EOL character*** to slave devices connected to the power line.  
 15. Plug the AC power cord and wall adatper of the slave device into another home outlet.
 16. Within 30 seconds, the red LED on the Adafruit Metro of the slave device will blink 12 times every 12 seconds. The red LED blinks only when the "IDN?" command is received from the master device.  Notice that if you disconnect the master from the power line, the red LED on the slave device will not blink as long as the master is disconnected.
+
+## PLM Slave/Master Setup Reference
+![jarvie_plm_annotated](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Quick_Connect_PLM.jpg)
 
 ## Pin Mappings and Pinouts
 ### Table 1. Demo Board ***PLM DIO*** pin descriptions
