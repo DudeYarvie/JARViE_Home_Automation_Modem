@@ -40,10 +40,18 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 
 
 ## QUICK SETUP
-1. Connect Line to Line, and Neutral to Neutral.
-2. Connect +5 V DC to pin 1.
-3. Connect GND to pin 3 and pin 5.
-4. Set pulse generator to square wave (0 V to 5 V), 1200 Hz, 50 % duty cycle.
+1. Connect 120 or 240 AC power cord to PLM connector J1 per **Table 3**
+2. Repeat step 1 for a second PLM demo board.
+2. Download the latest version of the Arduino IDE for your OS from the Arduino website.
+3. Download firmware from ***src*** directory of this repo.
+4. Program an Arduino UNO or equivalent (e.g. OSEPP UNO, Adafruit Metro) with the ***Power_Line_Modem_Slave.ino***
+5. Program a second Arduino UNO or equivalent with ***Power_Line_Modem_Master.ino***
+6. Connect each Arduino UNO to a PLM per **Table 4**
+7. Verify that power and ground connections between the Arduino UNO and PLM are correct. 
+8. Obtain a USB A to micro B cable and a USB A wall adapter
+9. Plug the micro B side of the USB cable into the micro USB
+8. Verify that your PLM slave and master devices resemble the figure below.
+9. Plug in the AC adapter a
 
 ### Table 1. PLM DIO pin descriptions
 | Pin | Description |
@@ -75,6 +83,15 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 | 1 | AC LINE/DC_IN+ |
 | 2 | AC Neutral/DC_IN- |
 | 3 | N/C |
+
+### Table 4. Arduino UNO to PLM Pin Map
+| Arduino Pin | PLM Connector Pin |
+|:---:|:---:|
+| +5V | J3 pin 2,4,6, or 8 |
+| GND | J3 pin 1,3,5 or 7 |
+| TX0 | J2 pin 5|
+| RX0 | J2 pin 7|
+
 
 
 ## Arduino Library for JARVIE TDA5051A Power Line Modem Demo Board
