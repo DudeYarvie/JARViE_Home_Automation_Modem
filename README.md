@@ -42,19 +42,26 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 ## QUICK SETUP
 1. Connect 120 or 240 AC power cord to PLM connector J1 per **Table 3**
 2. Repeat step 1 for a second PLM demo board.
-2. Download the latest version of the Arduino IDE for your OS from the Arduino website.
+3. If you have the [PLM Demo Kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/) and the firmware hasn't been updated, skip to step 6.
+2. Download the latest version of the Arduino IDE for your OS from the [Arduino website](www.Arduino.cc).
 3. Download firmware from ***src*** directory of this repo.
-4. Program an Arduino UNO or equivalent (e.g. OSEPP UNO, Adafruit Metro) with the ***Power_Line_Modem_Slave.ino***
-5. Program a second Arduino UNO or equivalent with ***Power_Line_Modem_Master.ino***
-6. Connect each Arduino UNO to a PLM per **Table 4**
-7. Verify that power and ground connections between the Arduino UNO and PLM are correct. 
-8. Obtain a USB A to micro B cable and a USB A wall adapter
-9. Plug the micro B side of the USB cable into the micro USB
-8. Verify that your PLM slave and master devices resemble the figure below.
-9. Plug in the AC adapter a
+4. Program an Adafruit Metro or equivalent (e.g. OSEPP UNO, Arduino UNO) with the ***Power_Line_Modem_Slave.ino***.
+5. Program a second Adafruit Metro or equivalent with ***Power_Line_Modem_Master.ino***.
+6. Connect each Adafruit Metro to a JARViE PLM demo board per **Table 4**.
+7. Verify that power and ground connections between the Adafruit Metro and PLM are correct. 
+8. Obtain a USB A to micro B or equivalent cable and a USB A wall adapter.
+9. Plug the micro B end of the USB cable into the Adafruit Metro. 
+10. Plug the A side of the USB cable into the wall adatper. 
+11. Verify that your PLM slave and master devices resemble the figure below.
+12. Verify that the AC power cord voltages are rated appropriately for the outlet you plan on plugging the PLMs into! 
+13. Plug the AC power cord and wall adatper of the master device into a home outlet.
+14. Once powered, the Adafruit Metro of the master device should blink 4 times every 12 seconds. After the red LED blinks, the master transmits: ***ASCII command string "IDN?" + Fletcher16 16 bit checksum (5 ASCII characters) + "\n" EOL character*** to slave devices connected to the power line.  
+15. Plug the AC power cord and wall adatper of the slave device into another home outlet.
+16. Within 30 seconds, the red LED on the Adafruit Metro of the slave device will blink 12 times every 12 seconds. The red LED blinks only when the "IDN?" command is received from the master device.  Notice that if you disconnect the master from the power line, the red LED on the slave device will not blink as long as the master is disconnected.
 
-### Table 1. PLM DIO pin descriptions
-| Pin | Description |
+## Pin Mappings and Pinouts
+### Table 1. Demo Board ***PLM DIO*** pin descriptions
+| PLM DIO Pin | Description |
 |:---:|:---:|
 | 1 | Zero cross detector |
 | 2 | Power down (active HIGH) |
@@ -65,8 +72,8 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 | 7 | PLM DATA_OUT (active LOW)|
 | 8 | PLM CLK OUT|
 
-### Table 2. Demo Board PWR pin descriptions
-| Pin | Description |
+### Table 2. Demo Board ***PWR*** pin descriptions
+| PWR Pin | Description |
 |:---:|:---:|
 | 1 | GND |
 | 2 | +5V |
@@ -77,22 +84,18 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 | 7 | GND |
 | 8 | +5V |
 
-### Table 3. Power Line Input pin descriptions
-| Pin | Description |
+### Table 3.  Demo Board Power Line Input connector J1 pin descriptions
+| J1 Pin | AC/DC signal |
 |:---:|:---:|
 | 1 | AC LINE/DC_IN+ |
 | 2 | AC Neutral/DC_IN- |
 | 3 | N/C |
 
-### Table 4. Arduino UNO to PLM Pin Map
-| Arduino Pin | PLM Connector Pin |
+### Table 4. Adafruit Metro to PLM Demo Board Pin Map
+| Adafruit Metro Pin | PLM Demo Board Connector Pin |
 |:---:|:---:|
 | +5V | J3 pin 2,4,6, or 8 |
 | GND | J3 pin 1,3,5 or 7 |
 | TX0 | J2 pin 5|
 | RX0 | J2 pin 7|
 
-
-
-## Arduino Library for JARVIE TDA5051A Power Line Modem Demo Board
-C++ library is provided in src directory.  Below is a list of file descriptions.
