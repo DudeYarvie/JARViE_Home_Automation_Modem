@@ -18,6 +18,8 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 * 8-bit A/D (Analog to Digital) converter and narrow digital filtering
 * Digital demodulation delivering baseband data
 
+<a href="https://www.tindie.com/stores/jarvie/?ref=offsite_badges&utm_source=sellers_JARViE&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
+
 ## Quick Setup
 1. Connect 120 or 240 AC power cord to PLM connector J1 per **Table 3**
 2. Repeat step 1 for a second PLM demo board.
