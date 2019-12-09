@@ -88,13 +88,16 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 | RX0 | J2 pin 7|
 
 ## PLM Tx, Rx & Zero Cross Detection
-### DATA_IN to Tx Carrier Output Delay
+### Data Transmission (DATA_IN to Tx Carrier Output Delay)
+The following image shows the DATA_IN to Tx carrier output delay. The blue trace is a 1 kHz square wave driving the PLM's TDA5051A modem DATA_IN input. The yellow trace is the modulated ASK carrier wave transmitted to all PLMs on the power line network. The capture shows that there is approximately a 170 microsecond delay between setting the DATA_IN input and Tx carrier wave generation.
 ![DATA_IN_Tx_Carrier_Delay](https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/Pics/DATA_IN%20to%20Tx%20carrier%20output%20delay%20annotated.PNG)
 
-### Rx Carrier Input to DATA_OUT Delay 
+### Data Reception (Rx Carrier Input to DATA_OUT Delay) 
+The following image shows the Rx carrier input to DATA_OUT output delay. The blue trace is the modulated ASK signal received through the AC inputs on the JARViE PLM. The yellow trace is the digital TDA5051A DATAOUT signal that can be interpreted with an MCU or equivalent UART compliant device. The capture shows that there is approximately a 180 microsecond delay between Rx carrier wave reception and the DATAOUT output.
 ![Rx_Carrier_DATA_OUT_Delay](https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/Pics/Rx_carrier_input_to_DATA_OUT_delay_annotated.PNG)
 
 ### AC Zero Cross Detection
+The main purpose of the PLM zero cross detection circuitry (ZCD) is to provide a method to synchronize devices to one another. The intent is to not have to share a clock between devices that are meters away. The output of the ZCD goes from 0 to +5V making it compatible with MCUs. By pairing the PLM with an MCU, the ZCD output can be used to trigger event timers, create task schedulers within a PLM network and or send messages when noise on the power line is smallest for best communication results (zero crossing point). The ZCD can also be used to measure the frequency of the AC power line.
 ![ZC_Scope_Capture](https://github.com/DudeYarvie/JARVIE_TDA5051A_Arduino/blob/master/Reference%20Docs/Pics/Zero_Cross_Detection_Capture_Annotate1.PNG)
 
 * **A –** 120 VAC zero cross point.  Signal begins to rise to maximum amplitude but H11AA1 bi-directional optocoupler is off so zero cross signal remains HIGH (+5V) due to pull-up resistor.
