@@ -18,6 +18,9 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 * 8-bit A/D (Analog to Digital) converter and narrow digital filtering
 * Digital demodulation delivering baseband data
 
+## Smart Home with JARViE
+![JARViE_Smart_Home_Diagram](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/JARViE_Smart_Home_Diagram.jpg)
+
 ## How to Order
 [Purchase demo board or full kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/)
 
