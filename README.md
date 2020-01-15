@@ -32,7 +32,7 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 <a href="https://www.tindie.com/stores/jarvie/?ref=offsite_badges&utm_source=sellers_JARViE&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
 
 
-## Quick Setup
+## Quick Setup - Demo Board
 1. Connect 120 or 240 AC power cord to PLM connector J1 per **Table 3**
 2. Repeat step 1 for a second PLM demo board.
 3. If you have the [PLM Demo Kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/) and the firmware hasn't been updated, skip to step 6.
