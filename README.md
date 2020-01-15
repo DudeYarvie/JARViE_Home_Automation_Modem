@@ -114,9 +114,3 @@ The main purpose of the PLM zero cross detection circuitry (ZCD) is to provide a
 * **B –**  120 VAC rises high enough to bias NPN transistor in optocoupler pulling the zero cross detection signal LOW (0V).
 * **C –**  120 VAC zero cross point.  Signal begins to fall to minimum amplitude.  H11AA1 optocoupler is off so zero cross signal remains HIGH (+5V) due to pull-up resistor.
 * **D –**  120 VAC falls low enough to bias NPN transistor in bi-directional optocoupler pulling the zero cross detection signal LOW (0V).
-
-
-## Typical Application
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/Pics/JARViE_PLM_AC_Application.png">
-</p>
