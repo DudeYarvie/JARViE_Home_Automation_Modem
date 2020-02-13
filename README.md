@@ -26,10 +26,16 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 ## Smart Home Application
 A DIY smart home system is one of the many things you can create with the PLM Shield. The figure below illustrates a smart home application. The **Switch Node** provides on/off control of appliances, lighting and or opening/closing of garage doors. The **Environment Node** can monitor the indoor air quality of areas within your home. The **Internet Node** can host a webpage that displays the environmental data, as well as, clickable buttons to control appliances, lighting or garage doors. The webpage can be accessed from any mobile phone, PC or tablet connected to the internet; allowing you to access your DIY smart home network from inside your house or while your away.
 
-![JARViE_Smart_Home_Diagram](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/JARViE_Smart_Home_Diagram.jpg)
+![Smart_Home_Diagram](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/JARViE_Smart_Home_Diagram.jpg)
 
 ## DC Power Line Application
+The following diagram illustrates how the PLM Shield should be connected to a DC power line. In this diagram, a DC power supply serves as the power source but the DC supply can be replaced by any source that provides DC power (e.g. solar panels with converted DC output, batteries, super capacitor, etc.). **The DC power source should not exceed +35 VDC.**
 
+When using switch mode power supplies it's best to filter the output to achieve the best powerline telecommunications. **L1** = 100 uH and **C** = 470 uF is a low-pass filter that prevents power supply noise from inhibiting powerline communications. The filtering components are likely not required when using batteries or capacitors as the power source. 
+
+The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH) is recommended to prevent the capacitor from overloading/shorting the 1200 Hz powerline communications.  Using batteries and capacitors as the DC power source will have the same overloading affect, so a choke is recommended for these sources as well.
+
+![DC_Power_Line_Diagram](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shield_DC_Power_Line_Diagram.png)
 
 ## How to Order
 [Purchase demo board or full kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/)
