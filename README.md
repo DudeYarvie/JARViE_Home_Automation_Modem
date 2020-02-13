@@ -11,17 +11,15 @@ The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A i
 
 
 ## Features
-* Communicates over DC or 120V/240V AC power buses
-* Requires single +5V @ 100 mA max power supply
-* Optically coupled zero cross detection
-* 1200 baud data rate (default)
-* External clock input for baud rate adjustment, from microcontroller or an external oscillator IC
-* Full digital carrier generation and shaping
-* High clock rate of 6-bit D/A (Digital to Analog) converter for rejection of aliasing components
-* Fully integrated output power stage with overload protection
-* Automatic Gain Control (AGC) at receiver input
-* 8-bit A/D (Analog to Digital) converter and narrow digital filtering
-* Digital demodulation delivering baseband data
+* Communicates over +35V max DC or home 120V/240V AC power lines using ASK carrier wave generation
+* Provides power to MCU dev board and expansion shields from power line input (+7V @ 300 mA from VIN pin)
+* AC Mains isolation via high-frequency transformer for safety
+* Zero cross detection for system synchronization and or line frequency measurements
+* 600 to 1200 bps UART bus between modem and MCU (Arduino TX0 and RX0)
+* Modem baud rate adjustment via external clock input
+* Modem output overload protection
+* Automatic gain control at modem's receiver input
+* Modem power down control to reduce power consumption
 
 ## Smart Home Application
 A DIY smart home system is one of the many things you can create with the PLM Shield. The figure below illustrates a smart home application. The **Switch Node** provides on/off control of appliances, lighting and or opening/closing of garage doors. The **Environment Node** can monitor the indoor air quality of areas within your home. The **Internet Node** can host a webpage that displays the environmental data, as well as, clickable buttons to control appliances, lighting or garage doors. The webpage can be accessed from any mobile phone, PC or tablet connected to the internet; allowing you to access your DIY smart home network from inside your house or while your away.
