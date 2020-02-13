@@ -30,6 +30,13 @@ A DIY smart home system is one of the many things you can create with the PLM Sh
 
 ![Smart_Home_Diagram](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/JARViE_Smart_Home_Diagram.jpg)
 
+### Node Examples include but not limited to,
+* **Internet Node:** Ardunio UNO + PLM Shield + Ethernet Shield creates a node that can be controlled from outside of your home over the internet, host server applications to report data to a website for remote monitoring.
+
+* **Environment Node:** Ardunio UNO + PLM Shield + Adafruit BME680 Breakout creates a node that can monitor temperature, pressure, humidity and VOCs in a room/area within your home.
+
+* **Switch Node:** Ardunio UNO + PLM Shield + Relay Shield creates a node that can switch on/off AC appliances (e.g. fan, light, motor or high current DC actuators like solenoid valve)
+
 ## DC Power Line Application
 The following diagram illustrates how the PLM Shield should be connected to a DC power line. In this diagram, the DC power source can be a switch-mode power supply, solar panels with converted DC output, batteries, super capacitor, etc. **The DC power source should not exceed +35 VDC.**
 
