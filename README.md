@@ -29,9 +29,9 @@ A DIY smart home system is one of the many things you can create with the PLM Sh
 ![Smart_Home_Diagram](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/JARViE_Smart_Home_Diagram.jpg)
 
 ## DC Power Line Application
-The following diagram illustrates how the PLM Shield should be connected to a DC power line. In this diagram, a DC power supply serves as the power source but the DC supply can be replaced by any source that provides DC power (e.g. solar panels with converted DC output, batteries, super capacitor, etc.). **The DC power source should not exceed +35 VDC.**
+The following diagram illustrates how the PLM Shield should be connected to a DC power line. In this diagram, the DC power source can be a switch-mode power supply, solar panels with converted DC output, batteries, super capacitor, etc. **The DC power source should not exceed +35 VDC.**
 
-When using switch mode power supplies it's best to filter the output to achieve the best powerline telecommunications. **L1** = 100 uH and **C** = 470 uF is a low-pass filter that prevents power supply noise from inhibiting powerline communications. The filtering components are likely not required when using batteries or capacitors as the power source. 
+When using a switch-mode power supply, it is best to filter the output to achieve the best powerline telecommunications. **L1** = 100 uH and **C** = 470 uF is a low-pass filter that prevents power supply noise from interfering with powerline communications. The filtering components are likely not required when using batteries or capacitors as the power source. 
 
 The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH) is recommended to prevent the capacitor from overloading/shorting the 1200 Hz powerline communications.  Using batteries and capacitors as the DC power source will have the same overloading affect, so a choke is recommended for these sources as well.
 
