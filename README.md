@@ -101,7 +101,7 @@ The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH)
 | 3 | N/C |
 
 ### Table 4. Adafruit Metro to PLM Breakout Board Pin Map
-| Adafruit Metro Pin | PLM Demo Board Connector Pin |
+| Adafruit Metro Pin | PLM Breakout Board Connector Pin |
 |:---:|:---:|
 | +5V | J3 pin 2,4,6, or 8 |
 | GND | J3 pin 1,3,5 or 7 |
