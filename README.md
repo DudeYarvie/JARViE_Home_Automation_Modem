@@ -45,7 +45,7 @@ The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH)
 <a href="https://www.tindie.com/stores/jarvie/?ref=offsite_badges&utm_source=sellers_JARViE&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
 
 
-## Quick Setup - Demo Board
+## Quick Setup - Breakout Board
 1. Connect 120 or 240 AC power cord to PLM connector J1 per **Table 3**
 2. Repeat step 1 for a second PLM demo board.
 3. If you have the [PLM Demo Kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/) and the firmware hasn't been updated, skip to step 6.
@@ -69,7 +69,7 @@ The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH)
 ![jarvie_plm_annotated](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/Quick_Connect_PLM.jpg)
 
 ## Pin Mappings and Pinouts
-### Table 1. Demo Board ***PLM DIO*** pin descriptions
+### Table 1. Breakout Board ***PLM DIO*** pin descriptions
 | PLM DIO Pin | Description |
 |:---:|:---:|
 | 1 | Zero cross detector |
@@ -81,7 +81,7 @@ The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH)
 | 7 | PLM DATA_OUT (active LOW)|
 | 8 | PLM CLK OUT|
 
-### Table 2. Demo Board ***PWR*** pin descriptions
+### Table 2. Breakout Board ***PWR*** pin descriptions
 | PWR Pin | Description |
 |:---:|:---:|
 | 1 | GND |
@@ -93,14 +93,14 @@ The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH)
 | 7 | GND |
 | 8 | +5V |
 
-### Table 3.  Demo Board Power Line Input connector J1 pin descriptions
+### Table 3.  Breakout Board Power Line Input connector J1 pin descriptions
 | J1 Pin | AC/DC signal |
 |:---:|:---:|
 | 1 | AC LINE/DC_IN+ |
 | 2 | AC Neutral/DC_IN- |
 | 3 | N/C |
 
-### Table 4. Adafruit Metro to PLM Demo Board Pin Map
+### Table 4. Adafruit Metro to PLM Breakout Board Pin Map
 | Adafruit Metro Pin | PLM Demo Board Connector Pin |
 |:---:|:---:|
 | +5V | J3 pin 2,4,6, or 8 |
