@@ -30,7 +30,7 @@ A DIY smart home system is one of the many things you can create with the PLM Sh
 
 ![Smart_Home_Diagram](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/JARViE_Smart_Home_Diagram.jpg)
 
-### Node Examples include but not limited to,
+### Node examples include but not limited to,
 * **Internet Node:** Ardunio UNO + PLM Shield + Ethernet Shield creates a node that can be controlled from outside of your home over the internet, host server applications to report data to a website for remote monitoring.
 
 * **Environment Node:** Ardunio UNO + PLM Shield + Adafruit BME680 Breakout creates a node that can monitor temperature, pressure, humidity and VOCs in a room/area within your home.
