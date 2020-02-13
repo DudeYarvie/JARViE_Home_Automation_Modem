@@ -1,7 +1,11 @@
-## JARViE Power Line Modem Demo Board
-The JARViE PLM Demo Board and Shield offers users a simple and low-cost entry point into learning about Smart Home technology.  Couple this modem with a microcontroller to ommunicate with other devices or systems over AC or DC power lines. Applications include lighting control, home appliance control, and energy/heating control. 
+## JARViE Power Line Modem Demo Boards
+The PLM Breakout Board and Shield are Arduino compatible, simple and low-cost solutions for creating a DIY IOT project or developing consumer product using power line telecommunications. 
 
-The demo board highlights the NXP TDA5051A home automation modem. The TDA5051A is an amplitude shift key (ASK) power line modem that operates up to 1200 bits per second (bps) from a single +5VDC supply.  The receiver portion of the modem employs automatic gain control (AGC) at its input and the transmitter has output power overload protection. An 8-bit A-to-D converter and a narrow digital filter follow the AGC stage in the receiver. **The TDA5051A power line modem application solution is compliant with US FCC (Federal Communication Commission), Industry Canada, Japan MPT, and European CENELEC EN50065-1 regulations for signaling in the 125 kHz to 140 kHz and the 95 kHz to 125 kHz frequency bands.**  
+Stack the shield on top of one of the many MCU development boards with the recognizable Arduino Shield footprint and you instantly have a ***smart*** node that communicates to appliances, lighting, garage doors and sensors over thousands of feet of home 120/240 AC or DC power lines with no other wires required (nodes receive power from the same wires they communicate over). Nodes can be accessed over the internet via web browsers and or C++/Python/MATLAB/LabVIEW applications.
+
+The breakout board does just that, it breaks out power line modem control and power signals to a connector. This provides flexibility to control PLM communications from something other than an Arduino. This PLM solution is also a cheaper, bear-bones alternate, to the shield because it does not possess the AC to DC converter.  The board does not receive power from the same wires it communicates over.  The DC power required by the breakout board components must be supplied seperate from the power lines used for communications.  This board functions similar to the NXP OM13313-598 Demo Kit but it's a fraction of the price.
+
+These power line modem solutions are compliant with US FCC (Federal Communication Commission), Industry Canada, Japan MPT, and European CENELEC EN50065-1 regulations for signaling in the 125 kHz to 140 kHz and the 95 kHz to 125 kHz frequency bands.
 
 ### **Breakout Board**
 ![jarvie_plm_annotated](https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/Pics/PLM_CCA_Annotated.jpg)
