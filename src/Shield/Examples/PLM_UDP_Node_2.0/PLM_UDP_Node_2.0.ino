@@ -10,6 +10,9 @@ USAGE:   1. Create a PLM UDP Node using a Seeed Studio Ethernet Shield, Arduino 
          3. Run the python script from PC/tablet/mobile connected to the same network as the Ethernet Shield
          4. The Python script sends a UDP message through a network socket, The Ethernet Shield reads it.  If a PLM
             Shield is attached the UDP message is forwarded out on the powerlines the PLM is connected to.
+         5. If WAN access (external network access) to UDP Node is desired, one must enable port forwarding on their router 
+            for the ip address of the node (e.g.192.168.1.177). 
+            See the UDP Node Setup Guide for instructions: https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/tree/master/Reference%20Docs
          
 References: UDPSendReceiveString.ino authored by Michael Margolis on 21-AUG-2010.
 Releases: 
@@ -49,7 +52,7 @@ unsigned int localPort = 8888;                    //Local port to listen on
 
 //Buffers for receiving and sending data
 char packetBuffer[UDP_TX_PACKET_MAX_SIZE]="";        //Buffer to hold incoming packet
-char  ReplyBuffer[UDP_TX_PACKET_MAX_SIZE]="";         // a string to send back
+char ReplyBuffer[UDP_TX_PACKET_MAX_SIZE]="";         // a string to send back
 
 //An EthernetUDP instance to let us send and receive packets over UDP
 EthernetUDP Udp;
@@ -86,7 +89,7 @@ void setup() {
 /*MAIN PROGRAM*/
 void loop() {
   
-  /*Clear UDP buffer*/
+  /*Clear UDP receive buffer*/
   memset(packetBuffer,'\0',UDP_TX_PACKET_MAX_SIZE);
   
   /*if there's data available, read a packet*/
@@ -104,7 +107,7 @@ void loop() {
     sprintf(buf," %u\n",checksum);                          //Construct checksum buffer
     strcat (msg, buf);                                      //Concatenate data message and checksum
     
-    /*Check if cmd requires a response*/
+    /*Check if cmd requires a response from a PLM device*/
     read_flag=0;                                            //Clear read_flag
     if(strncmp(msg,"TEMP",strlen("TEMP"))==0) read_flag=1;       
     if(strncmp(msg,"HUM",strlen("HUM"))==0)   read_flag=1;       
@@ -115,7 +118,7 @@ void loop() {
       delay(150);                                           //Delay
     }
 
-    /*Send UDP string/command to PLM other device*/    
+    /*Broadcast UDP string/command to all PLM devices*/    
     UCSR0B &= ~(1<<RXEN0);                                  //Must Disable RX of MCU because PLM comms occur on the same wire 
                                                             //(PLM shield AC couples TX to RX)
     for (int j = 0; j < strlen(msg); j++){                  //Send message through USART
@@ -128,12 +131,11 @@ void loop() {
     delay(100);                                             //Required delay to let MCU UART RX circuit to setup
 
 
-    //IF response required from PLM Node
+    //IF query cmd was sent, wait for response from PLM device 
     if(read_flag == 1){
-      PLM_read_msg(ReplyBuffer, UDP_TX_PACKET_MAX_SIZE);
+      PLM_read_msg(ReplyBuffer, UDP_TX_PACKET_MAX_SIZE);   //Read data from PLM device
       delay(10);
-      //if (strlen(ReplyBuffer) == 0) Serial.println("NAN");
-      
+        
       //Sends data through UDP socket if buffer is not empty
       if (strlen(ReplyBuffer) != 0){
         //Send a reply to the IP address and port that sent us the packet we received
