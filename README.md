@@ -13,6 +13,11 @@ These power line modem solutions are compliant with US FCC (Federal Communicatio
 ### **Arduino Shield** 
 ![JARViE_PLM_Shield](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/PLM_Shield_r2_Annotate.png)
 
+### **PLM Shahara (Put a PLM inside your home outlet)**
+PLM will have an onboard ATmega328p MCU for programming and a +5V AC/DC converter to power digital circuitry.
+
+![JARViE_PLM_Shahara](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shahara_Board_Rendering.PNG)
+
 
 ## Features
 * Communicates over +35V max DC or home 120V/240V AC power lines using ASK carrier wave generation
