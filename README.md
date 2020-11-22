@@ -14,7 +14,7 @@ These power line modem solutions are compliant with US FCC (Federal Communicatio
 ![JARViE_PLM_Shield](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/PLM_Shield_r2_Annotate.png)
 
 ### **PLM Shahara (Put a PLM inside your home outlet)**
-PLM will have an onboard ATmega328p MCU for programming and a +5V AC/DC converter to power digital circuitry.
+PLM will have an onboard ATmega328p MCU for programming and a +5V AC/DC converter to power digital circuitry.  Design is in development.  CCAs are being built 21-NOV-2020.
 
 ![JARViE_PLM_Shahara](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shahara_Board_Rendering.PNG)
 
