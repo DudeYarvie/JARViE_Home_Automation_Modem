@@ -16,7 +16,7 @@ These power line modem solutions are compliant with US FCC (Federal Communicatio
 ### **PLM Shahara (Put a PLM inside your home outlet)**
 PLM Shahara is a standalone miniature PLM development board measuring 2" x 2"; perfect for embedding into DIY or prototype designs.  It houses an onboard ATmega328p MCU for custom firmware development to create your custom smart home platform and or powerline smart home network.  An onboard +5V AC/DC converter powers digital circuitry directly from the 120 or 240VAC input wires that the module(s) communicate over.  Product has been successfully tested and product purchase web page is under development 06-MAR-2021.
 
-![JARViE_PLM_Shahara](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shahara_Board_Rendering.PNG)
+![JARViE_PLM_Shahara](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shahara_Annotated.png)
 
 
 ## Features
