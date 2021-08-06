@@ -1,0 +1,19 @@
+FUSE Registers,
+-> EXTENDED = 0xFD (valid)
+-> HIGH = 0xD0 (valid)
+-> LOW = 0xFF (valid)
+
+FUSE Names,
+-> BODLEVEL = 2V				//Brownout detector trigger level
+-> RSTDISBL = [ ]				//Reset disabled		
+-> DWEN = [ ]					//Debug wire enabled
+-> SPIEN = [X]					//Serial programming download (SPI) enabled
+-> WDTON = [ ]					//Watchdog timer always on
+-> EESAVE = [X]					//Preserve EEPROM through the chip erase cycle	
+-> BOOTSZ = 2048W_3800				//Select boot size
+-> BOOTRST = [X]				//Boot reset vector enabled
+-> CKDIV8 = [ ]					//Divide clock by 8 internally
+-> CKOUT = [ ]					//CLK output on PORTB0
+-> SUT_CKSEL = EXTXOSC_8MHZ_XX_16KCK_14CK_65MS	//CLK select
+
+
