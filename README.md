@@ -19,7 +19,7 @@ These power line modem solutions are compliant with US FCC (Federal Communicatio
 ![JARViE_PLM_Shahara](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shahara_Annotated.png)
 
 
-## Features
+## Main Features
 * Communicates over +35V max DC or home 120V/240V AC power lines using ASK carrier wave generation
 * Provides power to MCU dev board and expansion shields from power line input (+7V @ 300 mA from VIN pin)
 * AC Mains isolation via high-frequency transformer for safety
@@ -50,6 +50,9 @@ When using a switch-mode power supply, it is best to filter the output to achiev
 The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH) is recommended to prevent the capacitor from overloading/shorting the 1200 Hz powerline communications.  Using batteries and capacitors as the DC power source will have the same overloading affect, so a choke is recommended for these sources as well.
 
 ![DC_Power_Line_Diagram](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shield_DC_Power_Line_Diagram.png)
+
+## Custom Application
+Powerline modem technology is being used in the solar, oil and gas and irrigation industries just to list a few.  E-mail hilljarvis@gmail.com if you're interested and or need help planning, reviewing, designing, developing and or deploying a custom powerline modem device or system.
 
 ## How to Order
 [Purchase demo board or full kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/)
