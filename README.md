@@ -54,7 +54,7 @@ The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH)
 ## Custom Application Development Services
 Powerline modem technology is being used in the solar, oil and gas and irrigation industries just to list a few.  E-mail hilljarvis@gmail.com if you're interested and or need help planning, reviewing, designing, developing and or deploying a custom powerline modem device or system.
 
-## How to Order
+## How to Order Development Boards
 [Purchase demo board or full kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/)
 
 <a href="https://www.tindie.com/stores/jarvie/?ref=offsite_badges&utm_source=sellers_JARViE&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
