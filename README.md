@@ -1,9 +1,11 @@
 ## JARViE Power Line Modem Demo Boards
-The PLM Breakout Board and Shield are Arduino compatible, simple and low-cost solutions for creating a DIY IOT project or developing consumer product using power line telecommunications. 
+The PLM Breakout Board, Shield and Shahara are compatible, simple and low-cost solutions for creating a DIY IOT project or developing consumer product using power line telecommunications. The breakout board and shield are compatible with Arduino development boards and the Shahara is a compact all-in-one solution combining MCU and powerline modem circuitry on one board.
 
 Stack the shield on top of one of the many MCU development boards with the recognizable Arduino Shield footprint and you instantly have a ***smart*** node that can communicate to appliances, lighting, garage doors and sensors over thousands of feet of home 120/240 AC or DC power lines with no other wires required (nodes receive power from the same wires they communicate over). Nodes can be accessed over the internet via web browsers and or C++/Python/MATLAB/LabVIEW applications.
 
 The breakout board does just that, it breaks out power line modem control and power signals to a header. This provides flexibility to control PLM communications from something other than an Arduino. This PLM solution is also a cheaper, bear-bones alternate, to the shield because it does not possess the AC to DC converter.  This board functions similar to the NXP OM13313-598 Demo Kit but it's a fraction of the price.  Like the OM13313 Demo Kit, this board does not receive power from the same wires it communicates over.  The DC power required by the breakout board components must be supplied seperate from the power lines used for communications.  
+
+The Shahara is a standalone miniature PLM development board measuring 2" x 2"; perfect for embedding into DIY or prototype designs.  It houses an onboard ATmega328p MCU for custom firmware development to create your custom smart home platform and or powerline smart home network.  An onboard +5V AC/DC converter powers digital circuitry directly from the 120 or 240VAC input wires that the module(s) communicate over.  
 
 These power line modem solutions are compliant with US FCC (Federal Communication Commission), Industry Canada, Japan MPT, and European CENELEC EN50065-1 regulations for signaling in the 125 kHz to 140 kHz and the 95 kHz to 125 kHz frequency bands.
 
@@ -14,8 +16,6 @@ These power line modem solutions are compliant with US FCC (Federal Communicatio
 ![JARViE_PLM_Shield](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/PLM_Shield_r2_Annotate.png)
 
 ### **PLM Shahara (Put a PLM inside your home outlet)**
-PLM Shahara is a standalone miniature PLM development board measuring 2" x 2"; perfect for embedding into DIY or prototype designs.  It houses an onboard ATmega328p MCU for custom firmware development to create your custom smart home platform and or powerline smart home network.  An onboard +5V AC/DC converter powers digital circuitry directly from the 120 or 240VAC input wires that the module(s) communicate over.  Product has been successfully tested and product purchase web page is under development 06-MAR-2021.
-
 ![JARViE_PLM_Shahara](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shahara_Annotated.png)
 
 
