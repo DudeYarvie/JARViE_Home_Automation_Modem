@@ -29,6 +29,10 @@ These power line modem solutions are compliant with US FCC (Federal Communicatio
 * Modem output overload protection
 * Automatic gain control at modem's receiver input
 * Modem power down control to reduce power consumption
+## Powerline Communications Spectrum
+All JARViE boards are set to brodcast powerline communications at 125 kHz. Here's a spectrum capture of a PLM Shahara plugged into a home outlet in North America. Note the signal magnitude at 125 kHz.  Also realize the signal magnitudes at other frequencies relative to the communications frequency.  For good powerline communicaions, the SNR (signl-to-noise ratio) of the communications frequency compared to surrounding frequencies (communications +/- 200 kHz) should be as large as possible. 
+
+![Shahara Spectrum Capture](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/Shahara_PLM_Spectrum_Measurent_dBV_0to1MEG.PNG)
 
 ## Smart Home Application
 A DIY smart home system is one of the many things you can create with the PLM Shield. The figure below illustrates a smart home application. The **Switch Node** provides on/off control of appliances, lighting and or opening/closing of garage doors. The **Environment Node** can monitor the indoor air quality of areas within your home. The **Internet Node** can host a webpage that displays the environmental data, as well as, clickable buttons to control appliances, lighting or garage doors. The webpage can be accessed from any mobile phone, PC or tablet connected to the internet; allowing you to access your DIY smart home network from inside your house or while your away.
