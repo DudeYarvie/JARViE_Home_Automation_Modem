@@ -63,7 +63,7 @@ Powerline modem technology is being used in the solar, oil and gas and irrigatio
 1. Connect 120 or 240 AC power cord to PLM connector J1 per **Table 3**
 2. Repeat step 1 for a second PLM demo board.
 3. If you have the [PLM Demo Kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/) and the firmware hasn't been updated, skip to step 6.
-2. Download the latest version of the Arduino IDE for your OS from the [Arduino website](www.Arduino.cc).
+2. Download the latest version of the Arduino IDE for your OS from the Arduino website.
 3. Download firmware from ***src*** directory of this repo.
 4. Program an Adafruit Metro or equivalent (e.g. OSEPP UNO, Arduino UNO) with the ***Power_Line_Modem_Slave.ino***.
 5. Program a second Adafruit Metro or equivalent with ***Power_Line_Modem_Master.ino***.
