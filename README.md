@@ -48,7 +48,7 @@ A DIY smart home system is one of the many things you can create with the PLM Sh
 * **Switch Node:** Ardunio UNO + PLM Shield + Relay Shield creates a node that can switch on/off AC appliances (e.g. fan, light, motor or high current DC actuators like solenoid valve)
 
 ### Communicate to PLM Network with a custom user interface,
-The following UI is an example that was developed using Python.  The application communicates with any PLM device in the network that has an IP address and can send/receive messages using UDP packets (User Datagram Protocol).  The application is located in the JARViE PLM Shield Example code section of this repo.
+The following UI is an example that was developed using Python.  The application communicates with any PLM device in the network that has an IP address and that can send/receive messages using UDP packets (User Datagram Protocol).  The Python application is located in this repo at Firmware->Shield->Examples.
 
 <p align="center">
   <img width="596" height="650" src="https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/JARVIE%20PLM%20User%20Interface%20Example.PNG">
