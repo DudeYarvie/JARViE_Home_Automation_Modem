@@ -1,6 +1,6 @@
 FUSE Registers,
 -> EXTENDED = 0xFD (valid)
--> HIGH = 0xD0 (valid)
+-> HIGH = 0xDE (valid)
 -> LOW = 0xFF (valid)
 
 FUSE Names,
