@@ -1,3 +1,5 @@
+[Go to Real Cool Heading section](#Custom_Application_Development_Services)
+[click here to jump to my anchor](#Custom_Application_Development_Services)
 ## JARViE Power Line Modem Demo Boards
 The PLM Breakout Board, Shield and Shahara are compatible, simple and low-cost solutions for creating a DIY IOT project or developing consumer product using power line telecommunications. The breakout board and shield are compatible with Arduino development boards and the Shahara is a compact all-in-one solution combining MCU and powerline modem circuitry on one board.
 
@@ -64,8 +66,11 @@ The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH)
 
 ![DC_Power_Line_Diagram](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shield_DC_Power_Line_Diagram.png)
 
-## Custom Application Development Services
-Powerline modem technology is being used in the solar, oil and gas and irrigation industries just to list a few.  E-mail hilljarvis@gmail.com if you're interested and or need help planning, reviewing, designing, developing and or deploying a custom powerline modem device and or powerline communications system.
+## Synchronizing Devices to the Powerline Modem Clock
+The TDA5051 provides a representation of its on-chip oscillation frequency (fosc) to its CLK OUT pin at a frequency of fosc/2. This signal can be supplied to the PLM host controller or external peripheral for system syncrhonization, PLM operating freuency verification, etc.
+![Typical_On-Chip_CLK_Config](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/blob/master/Reference%20Docs/Pics/Typical%20On-chip%20Clock%20Configuration.PNG)
+
+![PLM_CLK_OUT](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/blob/master/Reference%20Docs/Pics/PLM_CLK_OUT.png)
 
 ## Quick Setup - Breakout Board
 1. Connect 120 or 240 AC power cord to PLM connector J1 per **Table 3**
@@ -153,7 +158,6 @@ The main purpose of the PLM zero cross detection circuitry (ZCD) is to provide a
 * **C –**  120 VAC zero cross point.  Signal begins to fall to minimum amplitude.  H11AA1 optocoupler is off so zero cross signal remains HIGH (+5V) due to pull-up resistor.
 * **D –**  120 VAC falls low enough to bias NPN transistor in bi-directional optocoupler pulling the zero cross detection signal LOW (0V).
 
-### PLM CLK OUT (Clock output from PLM fosc/2) 
-The TDA5051 provides a representation of its on-chip oscillation frequency (fosc) to its CLK OUT pin at a frequency of fosc/2. This signal can be supplied to another application peripheral or host controller for system syncrhonization, PLM operating freuency verification, etc.
-
-![PLM_CLK_OUT](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/blob/master/Reference%20Docs/Pics/PLM_CLK_OUT.png)
+<a name="Custom_Application_Development_Services"></a>
+# Custom Application Development Services
+Powerline modem technology is being used in the solar, oil and gas and irrigation industries just to list a few.  E-mail hilljarvis@gmail.com if you're interested and or need help planning, reviewing, designing, developing and or deploying a custom powerline modem device and or powerline communications system.
