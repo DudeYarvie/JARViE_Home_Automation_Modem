@@ -138,11 +138,11 @@ All JARViE boards are set to brodcast powerline communications at 125 kHz. Here'
 
 <a name="Data_Transmission"></a>
 ## Data Transmission
-### Data Transmission (DATA_IN to Tx Carrier Output Delay)
+### DATA_IN to Tx Carrier Output Delay
 The following image shows the DATA_IN to Tx carrier output delay. The blue trace is a 1 kHz square wave driving the PLM's TDA5051A modem DATA_IN input. The yellow trace is the modulated ASK carrier wave transmitted to all PLMs on the power line network. The capture shows that there is approximately a 170 microsecond delay between setting the DATA_IN input and Tx carrier wave generation.
 ![DATA_IN_Tx_Carrier_Delay](https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/Pics/DATA_IN%20to%20Tx%20carrier%20output%20delay%20annotated.PNG)
 
-### Data Reception (Rx Carrier Input to DATA_OUT Delay) 
+### Rx Carrier Input to DATA_OUT Delay
 The following image shows the Rx carrier input to DATA_OUT output delay. The blue trace is the modulated ASK signal received through the AC inputs on the JARViE PLM. The yellow trace is the digital TDA5051A DATAOUT signal that can be interpreted with an MCU or equivalent UART compliant device. The capture shows that there is approximately a 180 microsecond delay between Rx carrier wave reception and the DATAOUT output.
 ![Rx_Carrier_DATA_OUT_Delay](https://raw.githubusercontent.com/DudeYarvie/JARVIE_TDA5051A_Arduino/master/Reference%20Docs/Pics/Rx_carrier_input_to_DATA_OUT_delay_annotated.PNG)
 
