@@ -2,13 +2,19 @@
 The PLM Breakout Board, Shield and Shahara are compatible, simple and low-cost solutions for creating a DIY IOT project or developing consumer product using power line telecommunications. The breakout board and shield are compatible with Arduino development boards and the Shahara is a compact all-in-one solution combining MCU and powerline modem circuitry on one board. These power line modem solutions are compliant with US FCC (Federal Communication Commission), Industry Canada, Japan MPT, and European CENELEC EN50065-1 regulations for signaling in the 125 kHz to 140 kHz and the 95 kHz to 125 kHz frequency bands.
 
 # Table of Contents
-1. [Demo Boards](#Demo_Boards)
-     - [Breakout Board](#Breakout_Board)
-     - [Arduino Shield](#Arduino_Shield)
-     - [RPI HAT](#RPI_HAT)
-     - [Shahara](#Shahara)
-2. [Main Features](#Main_Features)
-3. [Applications](#Applications)
+<details>
+   <summary>click to expand or hide</summary>
+   
+     1. [Demo Boards](#Demo_Boards)
+        - [Breakout Board](#Breakout_Board)
+        - [Arduino Shield](#Arduino_Shield)
+        - [RPI HAT](#RPI_HAT)
+        - [Shahara](#Shahara)
+        
+</details>
+
+    2. [Main Features](#Main_Features)
+    3. [Applications](#Applications)
      - [Smart Home](#Smart_Home)
      - [DC Power Line](#DC_Power_Line)
      - [Custom User Interface](#Custom_User_Interface)
@@ -21,6 +27,7 @@ The PLM Breakout Board, Shield and Shahara are compatible, simple and low-cost s
      - [Pin Mappings and Pinouts](#Pin_Mappings_and_Pinouts)
 7. [How to Order Demo Boards](#How_to_Order_Development_Boards)
 8. [Request Custom Design Services](#Custom_Application_Development_Services)
+
 
 <a name="Demo_Boards"></a>
 # Demo Boards
