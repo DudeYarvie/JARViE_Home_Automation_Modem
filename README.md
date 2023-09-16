@@ -152,3 +152,8 @@ The main purpose of the PLM zero cross detection circuitry (ZCD) is to provide a
 * **B –**  120 VAC rises high enough to bias NPN transistor in optocoupler pulling the zero cross detection signal LOW (0V).
 * **C –**  120 VAC zero cross point.  Signal begins to fall to minimum amplitude.  H11AA1 optocoupler is off so zero cross signal remains HIGH (+5V) due to pull-up resistor.
 * **D –**  120 VAC falls low enough to bias NPN transistor in bi-directional optocoupler pulling the zero cross detection signal LOW (0V).
+
+### PLM CLK OUT (Clock output from PLM fosc/2) 
+The TDA5051 provides a representation of its on-chip oscillation frequency (fosc) to its CLK OUT pin at a frequency of fosc/2. This signal can be supplied to another application peripheral or host controller for system syncrhonization, PLM operating freuency verification, etc.
+
+![PLM_CLK_OUT](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/blob/master/Reference%20Docs/Pics/PLM_CLK_OUT.png)
