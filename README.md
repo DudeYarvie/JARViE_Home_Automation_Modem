@@ -43,7 +43,9 @@ Stack the shield on top of one of the many MCU development boards with the recog
 
 <a name="RPI_HAT"></a>
 ### **RPI HAT** 
-Coming Soon!!!
+Plug this HAT onto any Raspberry Pi (RPI) with a 40-pin HDR (e.g. Pi 1,3,4 and Zero) and you instantly have a powerful PLM gateway to controll your powerline communications network. The HAT has an onboard +5V AC/DC converter that powers the RPI and HAT digital circuitry directly from the powerline. **The gateway is an on-board computer making it Python developer friendly; PLM communications can be achieved using Pytohn scripting.** The gateway can be accessed over the internet via a remote desktop or SSH connection.
+
+![JARViE_PLM_RPI_HAT](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/blob/master/Reference%20Docs/Pics/PLM_RPI_HAT_Annotate.png)
 
 <a name="Shahara"></a>
 ### **Shahara**
