@@ -74,6 +74,11 @@ A DIY smart home system is one of the many things you can create with the PLM Sh
 
 ![Smart_Home_Diagram](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/raw/master/Reference%20Docs/Pics/JARViE_Smart_Home_Diagram.jpg)
 
+## PLM Repeater
+In homes, outlets are typically on different circuits and or on different legs of a center tapped transformer depending on the amount of AC voltage the outlet is meant to deliver.  Here's a video explaining the basics of [home electrical wiring](https://www.youtube.com/watch?v=fJeRabV5hNU&list=PLoL84bGi9zeo8Xd___DXu2QQaOqr_55Ph&index=32). Powerline communications cannot be achieved over an infinite distance, it has it's limitations, because of this one may find that communications may be achievable between two adjacent rooms but not between outlets that are in rooms further apart. The JARViE PLM Shahara is the solution to achieve powerline communications between outlets on electrical circuits seperated by longer lengths of wire. The diagram below illustrates how to implement the solution by forming a JARViE PLM repeater. 
+
+![Smart_Home_Diagram](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/blob/master/Reference%20Docs/Pics/JARViE_PLM_Repeater.png)
+
 ### Node examples include but not limited to,
 * **Internet Node:** Ardunio UNO + PLM Shield + Ethernet Shield creates a node that can be controlled from outside of your home over the internet, host server applications to report data to a website for remote monitoring.
 
