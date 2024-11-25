@@ -24,6 +24,7 @@ The PLM Breakout Board, Shield, HAT and Shahara are compatible, simple and low-c
       - [Pin Mappings and Pinouts](#Pin_Mappings_and_Pinouts)
  7. [How to Order Demo Boards](#How_to_Order_Development_Boards)
  8. [Request Custom Design Services](#Custom_Application_Development_Services)
+ 9. Coming Soon - PLM SiP
 
 </details>
 
