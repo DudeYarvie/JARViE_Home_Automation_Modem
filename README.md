@@ -10,21 +10,22 @@ The PLM Breakout Board, Shield, HAT and Shahara are compatible, simple and low-c
       - [RPI HAT](#RPI_HAT)
       - [Shahara](#Shahara)   
  2. [Main Features](#Main_Features)
- 3. [Applications](#Applications)
+ 3. [How to Order Demo Boards](#How_to_Order_Development_Boards)
+ 4. [Applications](#Applications)
       - [Smart Home](#Smart_Home)
       - [PLM Repeater](#PLM_Repeater)
       - [DC Power Line](#DC_Power_Line)
       - [Custom User Interface](#Custom_User_Interface)
       - [Synchronizing Devices to the PLM Clock](#Synchronizing_Devices_to_the_Powerline_Modem_Clock)
- 4. [Quick Setup](#Quick_Setup)
- 5. [Electrical Specifications](#Electrical_Specifications)
+ 5. [Quick Setup](#Quick_Setup)
+ 6. [Electrical Specifications](#Electrical_Specifications)
       - [Powerline Communications Spectrum](#Powerline_Communications_Spectrum)
       - [Data Transmission](#Data_Transmission)
       - [Zero Cross Detection](#AC_Zero_Cross_Detection)   
       - [Pin Mappings and Pinouts](#Pin_Mappings_and_Pinouts)
- 7. [How to Order Demo Boards](#How_to_Order_Development_Boards)
- 8. [Request Custom Design Services](#Custom_Application_Development_Services)
- 9. Coming Soon - PLM SiP
+ 
+ 7. [Request Custom Design Services](#Custom_Application_Development_Services)
+ 8. Coming Soon - PLM SiP
 
 </details>
 
@@ -67,6 +68,11 @@ The Shahara is a standalone miniature PLM development board measuring 2" x 2"; p
 * Automatic gain control at modem's receiver input
 * Modem power down control to reduce power consumption
 
+<a name="How_to_Order_Development_Boards"></a>
+## How to Order Development Boards
+[Purchase demo board or full kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/)
+
+<a href="https://www.tindie.com/stores/jarvie/?ref=offsite_badges&utm_source=sellers_JARViE&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
 <a name="Applications"></a>
 # Applications
 
@@ -210,12 +216,6 @@ The main purpose of the PLM zero cross detection circuitry (ZCD) is to provide a
 | GND | J3 pin 1,3,5 or 7 |
 | TX0 | J2 pin 5|
 | RX0 | J2 pin 7|
-
-<a name="How_to_Order_Development_Boards"></a>
-## How to Order Development Boards
-[Purchase demo board or full kit](https://www.tindie.com/products/jarvie/smart-home-power-line-modem-demo-board/)
-
-<a href="https://www.tindie.com/stores/jarvie/?ref=offsite_badges&utm_source=sellers_JARViE&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
 
 <a name="Custom_Application_Development_Services"></a>
 # Custom Application Development Services
