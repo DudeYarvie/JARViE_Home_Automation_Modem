@@ -115,7 +115,7 @@ Communicate to PLM Network by creating a user interface. The following UI is an 
 
 <a name="Synchronizing_Devices_to_the_Powerline_Modem_Clock"></a>
 ## Synchronizing Devices to the Powerline Modem Clock
-The TDA5051 powerline modem on the JARViE demo boards provides a representation of its on-chip oscillation frequency (fosc) to its CLK OUT pin at a frequency of fosc/2. This signal can be supplied to the PLM host controller or external peripheral for system syncrhonization, PLM operating freuency verification, etc.
+The TDA5051 powerline modem on the JARViE demo boards provides a representation of its on-chip oscillation frequency (fosc) to its CLK OUT pin at a frequency of fosc/2. This signal can be supplied to the PLM host controller or external peripheral for system syncrhonization, PLM operating frequency verification, etc.
 
 ![Typical_On-Chip_CLK_Config](https://github.com/DudeYarvie/JARViE_Home_Automation_Modem/blob/master/Reference%20Docs/Pics/Typical%20On-chip%20Clock%20Configuration.PNG)
 
