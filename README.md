@@ -101,7 +101,7 @@ The following diagram illustrates how the PLM Shield should be connected to a DC
 
 When using a switch-mode power supply, it is best to filter the output to achieve the best powerline telecommunications. **L1** = 100 uH and **C** = 470 uF is a low-pass filter that prevents power supply noise from interfering with powerline communications. The filtering components are likely not required when using batteries or capacitors as the power source. 
 
-The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH) is recommended to prevent the capacitor from overloading/shorting the 1200 Hz powerline communications.  Using batteries and capacitors as the DC power source will have the same overloading affect, so a choke is recommended for these sources as well.
+The impedance of **C** decreases as freq. increases so a choke (**L2** = 100 uH) is recommended to prevent the capacitor from overloading/shorting the 120 kHz powerline communications.  Using batteries and capacitors as the DC power source will have the same overloading affect, so a choke is recommended for these sources as well.
 
 ![DC_Power_Line_Diagram](https://raw.githubusercontent.com/DudeYarvie/JARViE_Home_Automation_Modem/master/Reference%20Docs/Pics/PLM_Shield_DC_Power_Line_Diagram.png)
 
